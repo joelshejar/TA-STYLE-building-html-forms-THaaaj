@@ -1,0 +1,433 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+body{
+    background-color: #E6E6E6;
+}
+a{
+    text-decoration: none;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.container-one{
+    max-width: 1400px;
+    padding: 0 100px;
+}
+header{
+    background-color: white;
+}
+.header{
+    padding: 20px 180px;
+}
+.logo a{
+    font-size: 40px;
+    font-weight: 600;
+    color: black;
+    margin-left: 5px;
+}
+.header-nav a{
+    font-size: 14px;
+    color: black;
+    margin-left: 40px;
+    font-weight: 600;
+}
+.section-one{
+    height: 85.2vh;
+    background: linear-gradient( rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../images/banner.jpg) no-repeat center center ;
+    position: relative;
+}
+
+.beginning{    
+    padding: 60px 0;
+    text-align: center;
+}
+.beginning h1{
+    font-size: 40px;
+    color: white;
+    padding-bottom: 20px;
+}
+.beginning img{
+    padding-bottom: 20px;
+}
+.beginning h4{
+    font-size: 24px;
+    color: white;
+    padding-bottom: 20px;
+}
+.down{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    background-color: #69C6BA;
+}
+.down i{
+    color: white;
+}
+.beginning div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+.form-one{
+    background-color: white; 
+    width: 70%;
+    position: absolute;
+    right: 133px;   
+    padding: 30px;
+}
+.flex-stretch{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+}
+.field{
+    width: 44%;
+}
+.field-one{
+    width: 54%;
+}
+.destination{
+    width: 100%;
+    display: block;
+}
+.destination-input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    padding: 15px 0px 15px 0px;
+}
+.availability{
+    margin-top: 20px;
+}
+.in-date{
+    width: 49%;
+}
+.out-date{
+    width: 49%;
+}
+.room-details{
+    width: 32.5%;
+}
+.section-two{
+    background-color: #EFEFEF;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.section-two h2{
+    font-size: 30px;
+    padding-top: 50px;
+    
+}
+.section-two span{
+    font-weight: 600;
+}
+.section-two p{
+    font-size: 14px;
+    padding: 30px 180px;
+    line-height: 1.5;
+}
+.section-two a{
+    padding: 10px 20px;
+    background-color:  #69C6BA;
+    color: white;
+    font-size: 13px;
+}
+.section-three{
+    background-color: white;
+    
+}
+.visited-two{
+    left: 115px;
+}
+.visited{
+    width: 50%;
+    position: relative;
+    right: 110px;
+}
+.visited-img{
+    width: 50%;
+    font-size: 0;
+}
+.visited-img img{
+    width: 100%;
+    font-size: 0;
+}
+.left-outer{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0,0,0,0.5);
+}
+.right-outer{
+    height: 40px;
+    width: 40px;
+    background-color: rgba(0,0,0,0.5);
+}
+.left-inner{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(128,128,128,.9);
+    border-radius: 50%;
+}
+.right-inner{
+    height: 20px;
+    width: 20px;
+    background-color: rgba(128,128,128,.9);
+    border-radius: 50%;
+}
+.left-inner i{
+    color: rgba(0,0,0,0.7);
+}
+.right-inner i{
+    color: rgba(0,0,0,0.7);
+}
+.flex-center{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.arrows{
+    width: 17%;
+}
+.most-visited{
+    width: 83%;
+    padding: 30px 25px 50px 25px;
+    background-color:  #69C6BA;
+}
+.most-two{
+    background-color: #C66995;
+}
+
+.most-visited h2{
+    font-size: 30px;
+    color: white;
+    padding-bottom: 15px;
+}
+.most-visited p{
+    font-size: 13px;
+    color: white;
+    line-height: 1.5;
+    padding-bottom: 25px;
+}
+.most-visited a{
+    padding: 10px 15px;
+    background-color: white ;
+    color: #69C6BA;
+    font-size: 11px;
+}
+.most-two a{
+    color: #C66995;
+}
+.continents{
+    width: 100%;
+    background-color: #69C6BA;
+    font-size: 0;
+    
+}
+.continents img{
+    padding: 25.3px;
+    
+}
+.asia{
+    background-color: #C66995;
+}
+.continents img:hover{
+    background-color: #69C6BA;
+}
+.section-four{
+    height: 10rem;
+    padding: 25px 80px 25px 80px;
+    background-color: white;
+    margin-bottom: 40px;
+    box-shadow: 3px 3px 10px 1px rgba(0,0,0,0.7);
+}
+.hotel-img img{
+    height: 100%;
+}
+.hotel h3{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.hotel h5{
+    font-size: 15px;
+    color: #C66995;
+    padding-bottom: 15px;
+}
+.hotel p{
+    font-size: 11px;
+    color: gray;
+    line-height: 1.5;
+}
+.price img{
+    height: 100%;
+}
+.hotel-img{
+    width: 16%;
+}
+.hotel{
+    width: 30%;
+}
+.price{
+    background-color: #69C6BA;
+    width: 16%;
+}
+.price-button{
+    text-align: center;
+    color: white;
+}
+.price-button h2{
+    font-size: 20px;
+    font-weight: 600;
+    padding-bottom: 15px;
+}
+.price-button h5{
+    font-size: 12px;
+    line-height: 1.5;
+}
+.hotel-price{
+    padding: 50px;
+    background-color: white;
+}
+.more-places{
+    text-align: center;
+    padding-top: 15px;
+}
+.more-places a{
+    padding: 10px 20px;
+    background-color:  #69C6BA;
+    color: white;
+    font-size: 13px;
+}
+.section-five{
+    position: relative;
+}
+.message-form{
+    width: 40%;
+    position: absolute;
+    top: 50px;
+    right: 60px;
+    padding: 20px;
+    background-color: white;
+}
+.name{
+    width: 44%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin-bottom: 9px;
+    background-color: #EFEFEF;
+}
+.email{
+    width: 45%;
+    border: 0;
+    outline: 0;
+    margin-bottom: 9px;
+    padding: 10px;
+    background-color: #EFEFEF;
+}
+.subject{
+    width: 94.5%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin-bottom: 9px;
+    background-color: #EFEFEF;
+}
+.message{
+    width: 94.5%;
+    border: 0;
+    outline: 0;
+    padding: 10px;
+    margin-bottom: 9px;
+    background-color: #EFEFEF;
+}
+.map iframe{
+    width: 100%;
+}
+.map{
+    font-size: 0;
+}
+.message-button{
+    padding: 15px 0;
+    background-color:  #69C6BA;
+    color: white;
+    font-size: 13px;
+    display: flex;
+    justify-content: center;
+
+}
+.footer{
+    text-align: center;
+}
+.footer h3{
+    color: white;
+    background-color:  #69C6BA;
+    padding: 30px 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
